@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Apps</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #bb86fc;
+        }
+        nav a {
+            color: #64b5f6;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .app-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .app-card:hover {
+            transform: scale(1.05);
+        }
+        .app-card img {
+            width: 100%;
+            max-width: 100px;
+            border-radius: 12px;
+        }
+        .app-card h3 {
+            margin: 10px 0 0;
+            color: #ffffff;
+        }
+        footer {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #64b5f6;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Download Apps</div>
+        <nav>
+            <a href="https://li2012China.github.io">首页</a>
+            <a href="https://li2012China.github.io/download">应用</a>
+            <a href="https://li2012China.github.io/game">游戏</a>
+            <a href="https://www.ccw.site/detail/668cfb2e22e0431e6fe6fd38">支持</a>
+            <a href="https://li2012China.github.io/feedback">反馈</a>
+        </nav>
+    </header>
+    <main>
+        <div class="app-grid">
+            <div class="app-card">
+                <a href="https://github.com/li2012China/cmd-/releases">
+                    <img src="https://github.com/li2012China/cmd-/releases" alt="CMD-">
+                    <h3>CMD-</h3>
+                </a>
+            </div>
+            <div class="app-card">
+                <a href="app2.html">
+                    <img src="https://via.placeholder.com/100" alt="App 2">
+                    <h3>应用2</h3>
+                </a>
+            </div>
+            <div class="app-card">
+                <a href="app3.html">
+                    <img src="https://via.placeholder.com/100" alt="App 3">
+                    <h3>应用3</h3>
+                </a>
+            </div>
+            <div class="app-card">
+                <a href="app4.html">
+                    <img src="https://via.placeholder.com/100" alt="App 4">
+                    <h3>应用4</h3>
+                </a>
+            </div>
+            <div class="app-card">
+                <a href="app5.html">
+                    <img src="https://via.placeholder.com/100" alt="App 5">
+                    <h3>应用5</h3>
+                </a>
+            </div>
+            <div class="app-card">
+                <a href="app6.html">
+                    <img src="https://via.placeholder.com/100" alt="App 6">
+                    <h3>应用6</h3>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://li2012China.github.io">首页</a>
+        <a href="https://li2012China.github.io/download">应用</a>
+        <a href="https://li2012China.github.io/game">游戏</a>
+        <a href="https://www.ccw.site/detail/668cfb2e22e0431e6fe6fd38">支持</a>
+        <a href="https://li2012China.github.io/feedback">反馈</a>
+    </footer>
+</body>
+</html>
