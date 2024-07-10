@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>应用详情</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #1e1e1e;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .app-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .app-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .app-rating {
+            font-size: 16px;
+            color: #bb86fc;
+            margin-bottom: 10px;
+        }
+        .app-description {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        .app-features {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+        .app-features li {
+            background: url('bullet-dark.png') no-repeat left top;
+            padding-left: 25px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #ffffff;
+        }
+        .app-screenshots {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .app-screenshot {
+            width: 30%;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+        .app-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #bb86fc;
+            color: #000000;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-header">
+            <img src="app-icon.png" alt="应用图标" class="app-icon">
+            <div class="app-info">
+                <div class="app-title">应用名称</div>
+                <div class="app-rating">评分：4.5/5</div>
+            </div>
+        </div>
+        <div class="app-description">这是一个示例应用的描述。它提供了丰富的功能和优秀的用户体验。</div>
+        <ul class="app-features">
+            <li>功能一：详细描述功能一的优点和用途。</li>
+            <li>功能二：详细描述功能二的优点和用途。</li>
+            <li>功能三：详细描述功能三的优点和用途。</li>
+        </ul>
+        <div class="app-screenshots">
+            <img src="screenshot1.png" alt="应用截图1" class="app-screenshot">
+            <img src="screenshot2.png" alt="应用截图2" class="app-screenshot">
+            <img src="screenshot3.png" alt="应用截图3" class="app-screenshot">
+        </div>
+        <a href="https://apps.microsoft.com/detail/9n0866fs04w8?hl=zh-cn&gl=CN" class="app-button">获取应用</a>
+    </div>
+</body>
+</html>
