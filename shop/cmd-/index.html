@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Dolby Access - Microsoft Store</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #2d2d2d;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header a {
+            color: #d4d4d4;
+            text-decoration: none;
+            font-size: 24px;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .header a:hover {
+            background-color: #444;
+        }
+        .app-logo {
+            width: 100px;
+            height: 100px;
+        }
+        .slider {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+        }
+        .slider img, .slider video {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #007acc;
+        }
+        p {
+            color: #d4d4d4;
+        }
+        ul {
+            color: #d4d4d4;
+        }
+        .container {
+            padding: 20px;
+            background-color: #2d2d2d;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .publisher-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .download-button {
+            background-color: #0078d4;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .download-button:hover {
+            background-color: #005a9e;
+        }
+        .footer {
+            background-color: #2d2d2d;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .footer a {
+            color: #d4d4d4;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .footer a:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="https://li2012china.github.io/download/"><span>←</span></a>
+    </div>
+    <div class="container">
+        <img src="dolby_access_logo.png" alt="Dolby Access Logo" class="app-logo">
+        <h1>Dolby Access</h1>
+        <div class="publisher-info">
+            <p>发布者：<a href="https://www.dolby.com" target="_blank">Dolby Laboratories</a></p>
+            <p>评分: 4.5</p>
+        </div>
+        <button class="download-button" onclick="window.open('https://www.microsoft.com/store/productId/9n0866fs04w8', '_blank')">下载</button>
+    </div>
+    <div class="slider">
+        <img src="screenshot1.jpg" alt="Screenshot 1">
+        <img src="screenshot2.jpg" alt="Screenshot 2">
+        <video src="demo_video.mp4" controls></video>
+    </div>
+    <div class="container">
+        <h2>简介</h2>
+        <p>下载 Dolby Access，开始免费试用耳机杜比全景声或设置杜比全景声设备。在游戏、电影和电视节目中聆听令人惊叹、精准逼真的音效，感受声音在您周围环绕——甚至是在您的头顶和身后。Dolby Access 还可让您使用自定义配置文件对音频进行个性化设置。</p>
+    </div>
+    <div class="container">
+        <h2>系统要求</h2>
+        <ul>
+            <li>操作系统: Windows 10 版本 1903 或更高版本</li>
+            <li>内存: 4 GB RAM</li>
+            <li>存储空间: 100 MB 可用空间</li>
+            <li>处理器: Intel Core i3 或同等产品</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>语言</h2>
+        <p>支持的语言: 中文（简体）, 中文（繁体）, 英语, 法语, 德语, 日语, 韩语, 西班牙语</p>
+    </div>
+    <div class="footer">
+        <p>©By li2012China & Fitten Code</p>
+        <a href="https://li2012china.github.io/support/">支持</a>
+        <a href="https://li2012china.github.io/feedback/">反馈</a>
+    </div>
+</body>
+</html>
